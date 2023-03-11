@@ -7,6 +7,7 @@ buildscript {
 
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'org.jetbrains.kotlin.android'
 
 android {
     namespace 'com.nextcloud.appscan'
@@ -36,4 +37,5 @@ android {
 dependencies {
     implementation "androidx.appcompat:appcompat:$appCompatVersion"
     implementation "com.github.zynkware:Document-Scanning-Android-SDK:$documentScannerVersion"
+    implementation 'androidx.core:core-ktx:+'
 }

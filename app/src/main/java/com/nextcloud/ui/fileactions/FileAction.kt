@@ -48,7 +48,7 @@ enum class FileAction(@IdRes val id: Int, @StringRes val title: Int, @DrawableRe
 
     // Uploads and downloads
     DOWNLOAD_FILE(R.id.action_download_file, R.string.filedetails_download, R.drawable.ic_cloud_download),
-    SYNC_FILE(R.id.action_sync_file, R.string.filedetails_sync_file, R.drawable.ic_cloud_sync_on),
+    // SYNC_FILE(R.id.action_sync_file, R.string.filedetails_sync_file, R.drawable.ic_cloud_sync_on),
     CANCEL_SYNC(R.id.action_cancel_sync, R.string.common_cancel_sync, R.drawable.ic_cloud_sync_off),
 
     // File sharing
@@ -91,7 +91,7 @@ enum class FileAction(@IdRes val id: Int, @StringRes val title: Int, @DrawableRe
             SEND_SHARE_FILE,
             SEND_FILE,
             OPEN_FILE_WITH,
-            SYNC_FILE,
+            // SYNC_FILE,
             CANCEL_SYNC,
             SELECT_ALL,
             SELECT_NONE,
